@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/view4"
+    android:scaleType="centerCrop"
+    />
+
+    
+    <Button
+        android:id="@+id/bt_in"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+         android:onClick="onButtonClick"
+        android:text="点击此处进入" 
+        android:textColor="#ffffff"
+        android:background="@drawable/bg_icon"/>
+
+</RelativeLayout>
